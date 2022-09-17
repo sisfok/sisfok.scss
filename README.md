@@ -1,6 +1,7 @@
 # Belajar CSS
 
 Untuk belajar saja.
+Terinspirasi dari simple.css
 
 Untuk melihat hasilnya dapat dilihat di: https://sisfok.github.io/classless-css/
 
