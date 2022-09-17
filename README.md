@@ -2,7 +2,7 @@
 
 Untuk belajar saja.
 
-Untuk melihat hasilnya dapat dilihat di: 
+Untuk melihat hasilnya dapat dilihat di: https://sisfok.github.io/classless-css/
 
 ## Penggunaan
 
