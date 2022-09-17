@@ -9,5 +9,5 @@ Untuk melihat hasilnya dapat dilihat di:
 1. Bisa mendownload langsung atau
 2. dengan `@import`
    ```html
-   @import url("https://github.com/SisfoK/classless-css/blob/main/style.css");
+   <link rel="stylesheet" href="https://github.com/SisfoK/classless-css/blob/main/style.css">
    ```
