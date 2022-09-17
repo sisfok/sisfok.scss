@@ -142,3 +142,8 @@ hr {
 footer {
     text-align: center;
 }
+
+#logo {
+    vertical-align: middle;
+    border-radius: 50%;
+}
