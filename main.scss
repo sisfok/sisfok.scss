@@ -66,11 +66,11 @@ a {
 ul, ol {
   li {
     line-height: 1.8rem;
-
-    code {
-      line-height: 1.4rem;
-    }
   }
+}
+
+code ul li, code ol li {
+  line-height: 1.4rem;
 }
 
 pre, code {
