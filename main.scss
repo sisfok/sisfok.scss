@@ -394,6 +394,7 @@ pre.highlight {
 .language {
   &-python::before {
     content: "Python";
+    font-family: $mono;
     position: static;
     display: block;
     color: #966700;
@@ -406,6 +407,7 @@ pre.highlight {
 
   &-bash::before {
     content: "Bash";
+    font-family: $mono;
     position: static;
     display: block;
     color: #FFFFFF;
@@ -418,6 +420,7 @@ pre.highlight {
 
   &-java::before {
     content: "Java";
+    font-family: $mono;
     position: static;
     display: block;
     color: #FFFFFF;
