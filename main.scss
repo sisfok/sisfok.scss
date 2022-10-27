@@ -283,13 +283,13 @@ tr {
     margin: 0;
   }
 
-  .alert-danger {
+  &-danger {
     background: #f8d7da;
     color: #721c24;
     border-color: #f5c6cb;
   }
 
-  .alert-info {
+  &-info {
     background: #d1ecf1;
     color: #0c5460;
     border-color: #bee5eb;
