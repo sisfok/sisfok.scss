@@ -392,13 +392,10 @@ pre.highlight {
   margin-bottom: 10px
 }
 
-// .highlighter-rouge {
-//   margin-bottom: 20px;
-//   width: 100%;
-//   background-color: #F8F8F8;
-//   border-radius: .3em;
-//   border: 1px solid #ddd;
-// }
+.highlighter-rouge {
+  background-color: #F8F8F8;
+  border-radius: .3em;
+}
 
 .language {
   &-python::before {
