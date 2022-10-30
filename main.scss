@@ -69,14 +69,14 @@ pre, code {
   overflow-x: scroll;
 }
 
-code {
-  &:not(pre>code) {
-    background-color: #fff8d3;
-    border: 1px solid #f0d547;
-    padding: 0.2rem .6rem;
-    border-radius: 10px;
-  }
-}
+// code {
+//   &:not(pre>code) {
+//     background-color: #fff8d3;
+//     border: 1px solid #f0d547;
+//     padding: 0.2rem .6rem;
+//     border-radius: 10px;
+//   }
+// }
 
 hr {
   border: 0.1px solid #d8dae1;
