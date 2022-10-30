@@ -392,9 +392,9 @@ pre.highlight {
   margin-bottom: 10px
 }
 
-pre:not(highlighter-rouge), .highlighter-rouge {
-  margin-top: 0;
-  padding: 10px;
+.highlighter-rouge {
+  margin-bottom: 20px;
+  width: 100%;
   background-color: #F8F8F8;
   border-radius: .3em;
   border: 1px solid #ddd;
