@@ -1,0 +1,145 @@
+body {
+  max-width: 80vw;
+  margin: 0 auto;
+  font: 400 1.3rem Inter;
+  line-height: 2rem;
+}
+
+@mixin headings($base) {
+  @for $i from 1 through 6 {
+    h#{(6 + 1) - $i} {
+      font-family: 'Source Serif Pro', serif;
+      font-weight: 700;
+      font-size: #{$base + calc(calc($base / 2) * $i)};
+    }
+  }
+}
+
+@include headings(16px);
+
+img:not(.avatar) {
+  height: auto;
+  max-width: 480px;
+  width: 100%;
+}
+
+section.grid {
+  padding: 4rem;
+  margin: 4rem 0 4rem 0;
+  min-width: 256px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+summary {
+  counter-increment: list-item 0;
+  list-style: disclosure-closed inside;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+summary::before {
+  right: 8px;
+}
+
+summary::before  {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 3.515v16.97M3.515 12h16.97' stroke='%23000' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'/%3E%3C/svg%3E") 0 0 no-repeat;
+  background-size: auto;
+  -webkit-background-size: 20px,20px;
+  background-size: 20px,20px;
+  content: "";
+  height: 20px;
+  margin-top: -8px;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: transform .1s ease-in-out;
+  transition: transform .1s ease-in-out;
+  width: 20px;
+}
+
+details[open] summary::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.tulisan {
+  max-width: 50vw;
+  margin: 0 auto;
+}
+
+.header {
+  min-width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.sub {
+  text-align: center;
+  font-style: italic;
+}
+
+.gr-1 {
+  grid-column: 1;
+  grid-row: 1;
+  width: auto;
+}
+
+.gr-2 {
+  grid-column: 2;
+  grid-row: 1;
+  width: auto;
+}
+
+.v-c {
+  align-items: center;
+  display: flex;
+}
+
+.br-1 {
+  border: 0.3rem solid #000;
+  border-radius: 10px;
+}
+
+.br-1::after {
+  left: 32px;
+  top: 32px;
+}
+
+.br-2 {
+  color: #000;
+  outline: 4px solid #5340b4;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.br-2::after {
+  background: #c4c6fc;
+  border-radius: 4px;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  left: 32px;
+  top: 32px;
+}
+
+.br-1::after {
+  background: #ededf0;
+  border-radius: 4px;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
