@@ -45,8 +45,9 @@ nav {
   grid-template-columns: 1fr 1fr;
   padding-top: 1rem;
   margin: auto;
-  vertical-align: center;
   width: 720px;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
