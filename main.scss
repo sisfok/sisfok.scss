@@ -41,6 +41,8 @@ body {
 }
 
 nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding-top: 1rem;
   margin: auto;
   position: absolute;
@@ -48,10 +50,12 @@ nav {
 
 nav {
   .left {
-    float: left;
+    grid-column: 1;
+    grid-row: 1;
   }
   .right {
-    float: right;
+    grid-column: 2;
+    grid-row: 1;
   }
 }
 
