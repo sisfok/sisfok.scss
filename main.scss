@@ -1,10 +1,8 @@
 @import '_color';
 @import '_highlight';
 
-@import url('https://fonts.cdnfonts.com/css/georgia');
-
 $mono: monospace;
-$sans-serif: 'Georgia', 'Inter', sans-serif;
+$sans-serif: 'Inter', sans-serif;
 
 :root {
   font-family: $sans-serif;
