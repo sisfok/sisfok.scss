@@ -349,6 +349,11 @@ tr {
   nav {
     display: block;
     padding-top: 1rem;
+    width: 100%;
+
+    .right {
+      text-align: left;
+    }
   }
 }
 
