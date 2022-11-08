@@ -46,6 +46,7 @@ nav {
   padding-top: 1rem;
   margin: auto;
   position: absolute;
+  width: 720px;
 }
 
 nav {
@@ -54,6 +55,7 @@ nav {
     grid-row: 1;
   }
   .right {
+    text-align: right;
     grid-column: 2;
     grid-row: 1;
   }
