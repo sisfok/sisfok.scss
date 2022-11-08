@@ -45,6 +45,15 @@ nav {
   margin: auto;
 }
 
+nav {
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+}
+
 h1 {
   font-family: $title;
 }
