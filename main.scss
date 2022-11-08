@@ -43,15 +43,16 @@ body {
 nav {
   padding-top: 1rem;
   margin: auto;
+  position: absolute;
 }
 
 nav {
-    .left {
-        float: left;
-    }
-    .right {
-        float: right;
-    }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
 }
 
 h1 {
