@@ -1,24 +1,24 @@
-@import '/base/typography';
+@import 'base/typography';
 
-@import '/components/alert';
-@import '/components/blockquote';
-@import '/components/buttons';
-@import '/components/code';
-@import '/components/image';
-@import '/components/summary';
-@import '/components/table';
+@import 'components/alert';
+@import 'components/blockquote';
+@import 'components/buttons';
+@import 'components/code';
+@import 'components/image';
+@import 'components/summary';
+@import 'components/table';
 
-@import '/layout/footer';
-@import '/layout/header';
-@import '/layout/navigation';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navigation';
 
-@import '/mobile/mobile';
+@import 'mobile/mobile';
 
-@import '/utils/color';
-@import '/utils/highlight';
-@import '/utils/rouge-color';
-@import '/utils/tag';
-@import '/utils/variables';
+@import 'utils/color';
+@import 'utils/highlight';
+@import 'utils/rouge-color';
+@import 'utils/tag';
+@import 'utils/variables';
 
 ::selection {
   color: #444;
