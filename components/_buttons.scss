@@ -1,0 +1,28 @@
+button {
+    min-width: 90px;
+    border-radius: 10px;
+}
+
+.btn {
+    &-primary {
+        border: #001933 1px solid;
+        background: #007bff;
+        color: #fff;
+
+        &:hover {
+            background: #0069d9;
+            color: #fff;
+        }
+    }
+
+    &-info {
+        border: #062a30 1px solid;
+        background: #17a2b8;
+        color: #fff;
+
+        &:hover {
+            background: #138496;
+            color: #fff;
+        }
+    }
+}

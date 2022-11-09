@@ -1,0 +1,9 @@
+@mixin headings($base) {
+    @for $i from 1 through 6 {
+
+        h#{(6 + 1) - $i},
+        .h#{(6 + 1) - $i} {
+            font-size: #{$base + (($base / 2) * $i)};
+        }
+    }
+}

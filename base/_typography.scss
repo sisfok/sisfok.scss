@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import '/scss-utils/mixins';
+
+:root {
+    font-family: $sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: $sans-serif;
+    }
+}
+
+* {
+    text-rendering: geometricPrecision;
+}
+
+@include headings(16px);
+
+h1 {
+    font-family: $title;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
