@@ -1,0 +1,14 @@
+pre,
+code {
+    font-family: $mono;
+    font-size: 0.9rem;
+    overflow-x: scroll;
+}
+
+code {
+    &:not(pre>code) {
+        background-color: rgba($color: #AFB8C1, $alpha: 0.2);
+        padding: .2rem .2rem;
+        border-radius: 10px;
+    }
+}

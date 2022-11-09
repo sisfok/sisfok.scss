@@ -1,0 +1,121 @@
+// asciidoc
+.listingblock {
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: .3em;
+
+    &.java-lang {
+        &::before {
+            content: "Java";
+            position: static;
+            display: block;
+            color: #fff;
+            background: #3863d9;
+            padding: 5px 0 5px 10px;
+            border-top-left-radius: .3em;
+            border-top-right-radius: .3em;
+        }
+    }
+
+    &.html-lang {
+        &::before {
+            content: "HTML";
+            position: static;
+            display: block;
+            color: #fff;
+            background: #DE6545;
+            padding: 5px 0 5px 10px;
+            border-top-left-radius: .3em;
+            border-top-right-radius: .3em;
+        }
+    }
+
+    &.ruby-lang {
+        &::before {
+            content: "Ruby";
+            position: static;
+            display: block;
+            color: #fff;
+            background: #820C02;
+            padding: 5px 0 5px 10px;
+            border-top-left-radius: .3em;
+            border-top-right-radius: .3em;
+        }
+    }
+
+    &.python-lang {
+        &::before {
+            content: "Python";
+            position: static;
+            display: block;
+            color: #fff;
+            background: #FFE05A;
+            padding: 5px 0 5px 10px;
+            border-top-left-radius: .3em;
+            border-top-right-radius: .3em;
+        }
+    }
+
+    .content {
+        .rouge {
+            margin: 0;
+            padding: 10px;
+        }
+    }
+}
+
+// markdown
+pre.highlight {
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 10px
+}
+
+.highlighter-rouge {
+    background-color: #F8F8F8;
+    border-radius: .3em;
+}
+
+.language {
+    &-python::before {
+        content: "Python";
+        font-family: $mono;
+        position: static;
+        display: block;
+        color: #966700;
+        background: #FFE05A;
+        padding: 5px 0 5px 10px;
+        border-top-left-radius: .3em;
+        border-top-right-radius: .3em;
+        line-height: 1rem;
+        border: none;
+    }
+
+    &-bash::before {
+        content: "Bash";
+        font-family: $mono;
+        position: static;
+        display: block;
+        color: #FFFFFF;
+        background: #293036;
+        padding: 5px 0 5px 10px;
+        border-top-left-radius: .3em;
+        border-top-right-radius: .3em;
+        line-height: 1rem;
+    }
+
+    &-java::before {
+        content: "Java";
+        font-family: $mono;
+        position: static;
+        display: block;
+        color: #FFFFFF;
+        background: #3863d9;
+        padding: 5px 0 5px 10px;
+        border-top-left-radius: .3em;
+        border-top-right-radius: .3em;
+        line-height: 1rem;
+    }
+}

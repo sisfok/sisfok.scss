@@ -1,0 +1,31 @@
+img {
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px #000 0.5;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+.ava {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: safe;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 0.1s;
+    padding: 2px;
+
+    &:hover {
+        filter: grayscale(0%);
+    }
+}

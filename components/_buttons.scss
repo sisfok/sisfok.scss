@@ -26,3 +26,24 @@ button {
         }
     }
 }
+
+.button {
+    display: inline-block;
+    padding: .1rem .75rem;
+    background: #e9ecef;
+    border: #343a40 1px solid;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+    color: #000;
+    border-radius: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    &:hover {
+        text-decoration: none;
+        text-decoration: none;
+        background: #f8f9fa;
+        color: #000;
+    }
+}

@@ -1,0 +1,41 @@
+details {
+    border-radius: 2px;
+    box-shadow: 0 0 2px #3c485826;
+    border: 1px solid #d8dae1;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+details[open] summary::before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+summary {
+    font-weight: 500;
+    counter-increment: list-item 0;
+    list-style: disclosure-closed inside;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+summary::before {
+    right: 5px;
+}
+
+summary::before {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 3.515v16.97M3.515 12h16.97' stroke='%23000' stroke-width='2' fill='none' fill-rule='evenodd' stroke-linecap='round'/%3E%3C/svg%3E") 0 0 no-repeat;
+    background-size: auto;
+    -webkit-background-size: 15px, 15px;
+    background-size: 15px, 15px;
+    content: "";
+    height: 15px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    width: 15px;
+}

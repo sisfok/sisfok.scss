@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    overflow: auto;
+    width: 100%;
+
+    caption {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+}
+
+td {
+    border: 1px solid #898EA4;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+th {
+    border: 1px solid #898EA4;
+    text-align: left;
+    padding: 0.5rem;
+    background-color: #f5f7ff;
+    font-weight: bold;
+}
+
+tr {
+    &:nth-child(even) {
+        background-color: #f5f7ff;
+    }
+}
