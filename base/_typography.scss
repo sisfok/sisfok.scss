@@ -16,7 +16,7 @@
     text-rendering: geometricPrecision;
 }
 
-@include headings(16px);
+@include headings(1rem);
 
 h1 {
     font-family: $title;
