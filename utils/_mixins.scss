@@ -2,9 +2,9 @@
     @for $i from 1 through 6 {
         h#{(6 + 1) - $i},
         .h#{(6 + 1) - $i} {
+            font-size: #{$base + ((calc($base / 2)) * $i)};
             font-family: $inter;
             text-align: center;
-            font-size: #{$base + ((calc($base / 2)) * $i)};
         }
     }
 }
