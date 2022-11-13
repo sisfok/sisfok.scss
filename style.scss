@@ -11,13 +11,13 @@
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/navigation';
+@import 'components/tag';
 
 @import 'mobile/mobile';
 
 @import 'utils/color';
 @import 'utils/highlight';
 @import 'utils/rouge-color';
-@import 'utils/tag';
 
 ::selection {
   color: #444;
@@ -32,8 +32,7 @@ html {
 body {
   margin: 0;
   font-size: 1rem;
-  line-height: 1.4rem;
-  max-width: 720px;
+  max-width: 80vw;
   margin: 0 auto;
   word-wrap: break-word;
 }
