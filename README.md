@@ -14,4 +14,6 @@ Untuk melihat hasilnya dapat dilihat di: https://sisfok.github.io
 
 Bisa mendownload langsung atau, dengan 
 
-```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SisfoK/classless-css/style.css">```
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SisfoK/classless-css/style.css">
+```
