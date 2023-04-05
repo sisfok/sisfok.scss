@@ -1,9 +1,9 @@
 img {
+    margin: 1em auto;
     display: block;
-    align-items: center;
+    border-radius: 2px;
+    box-shadow: 1em 1em #000 0.5;
     max-width: 100%;
-    border-radius: 5px;
-    box-shadow: 2px 2px #000 0.5;
 }
 
 svg {

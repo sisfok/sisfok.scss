@@ -1,6 +1,7 @@
 @import 'base/typography';
 
 @import 'components/alert';
+@import 'components/author';
 @import 'components/blockquote';
 @import 'components/buttons';
 @import 'components/code';
@@ -19,11 +20,6 @@
 @import 'utils/highlight';
 @import 'utils/rouge-color';
 
-::selection {
-  color: #444;
-  background: $c1;
-}
-
 html {
   margin: 0;
   scroll-behavior: smooth;
@@ -31,10 +27,14 @@ html {
 
 body {
   margin: 0;
-  font-size: 1rem;
-  max-width: 720px;
+  font-size: 1.2rem;
+  max-width: 920px;
   margin: 0 auto;
   word-wrap: break-word;
+}
+
+section {
+  margin-top: 2rem;
 }
 
 cite {

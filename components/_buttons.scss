@@ -1,19 +1,19 @@
 button {
-    min-width: 90px;
-    border-radius: 10px;
+    min-width: 144px;
+    border-radius: .2em;
+    cursor: pointer;
+    display: inline-block;
+    padding: .1rem .75rem;
+    box-shadow: 0 3px 4px -1px gray;
 }
 
 .button {
-    display: inline-block;
-    padding: .1rem .75rem;
-    background: #e9ecef;
-    border: #343a40 1px solid;
-    font-size: .9rem;
+    border: #c6cbd0 1px solid;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    cursor: pointer;
-    color: #000;
-    border-radius: 0;
+    background: #fff;
+    
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
     &:hover {

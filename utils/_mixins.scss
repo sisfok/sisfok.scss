@@ -4,7 +4,7 @@
         .h#{(6 + 1) - $i} {
             font-size: #{$base + ((calc($base / 2)) * $i)};
             font-family: $inter;
-            text-align: center;
+            line-height: 2rem;
         }
     }
 }

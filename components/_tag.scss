@@ -1,3 +1,5 @@
+@import '../utils/color';
+
 kbd {
     color: #444;
     border: 1px solid #444;
@@ -8,15 +10,16 @@ kbd {
 }
 
 .tag {
-    color: #444;
-    border: 1px solid #444;
-    border-bottom: 6px solid #444;
-    padding: 0.1rem 0.4rem;
-    background-color: #fff;
-    font-size: 1rem;
-    font-family: $mono;
-    padding: .2rem;
-}
+    background-color: $banana-300;
+    border-radius: 0.25em;
+    color: $banana-900;
+    display: inline-block;
+    font-size: 0.75em;
+    line-height: 2em;
+    margin: 0.125em;
+    padding: 0 0.5em;
+    text-decoration: none;
+  }
 
 mark {
     padding: 2px 5px;

@@ -9,11 +9,11 @@ $garamond: 'Vollkorn', serif;
 $inter: 'Inter', sans-serif;
 
 :root {
-    font-family: $garamond;
+    font-family: $inter;
 }
 
 * {
     text-rendering: geometricPrecision;
 }
 
-@include headings(1rem);
+@include headings(.7rem);
