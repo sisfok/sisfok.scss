@@ -1,25 +1,8 @@
 nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding-top: 1rem;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    font-family: $inter;
-}
+    font-size: 1rem;
 
-nav {
-    .left {
-        grid-column: 1;
-        grid-row: 1;
-        text-align: left;
-        font-size: 1rem;
-        font-weight: 800;
-    }
-
-    .right {
-        text-align: right;
-        grid-column: 2;
-        grid-row: 1;
+    a {
+        padding-right: 1rem;
     }
 }

@@ -8,12 +8,12 @@ $mono: 'Roboto Mono', monospace;
 $garamond: 'Vollkorn', serif;
 $inter: 'Inter', sans-serif;
 
-:root {
-    font-family: $inter;
-}
-
 * {
     text-rendering: geometricPrecision;
 }
 
-@include headings(.7rem);
+body {
+    font-family: $inter;
+}
+
+// @include headings(.7rem);
