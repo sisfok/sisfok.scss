@@ -1,5 +1,5 @@
 .img-author {
-  border: 2px solid grey;
+  border: 1px solid grey;
   border-radius: 50%;
   color: transparent;
   float: left;
@@ -12,11 +12,14 @@
 }
 
 .author-name {
-  line-height: 1em;
+  line-height: 1rem;
+  padding-top: .5rem;
+  margin-bottom: .1rem;
 }
 
 .time-post {
   opacity: 0.8;
-  font-size: 0.9em;
-  line-height: .1em;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: .1rem;
 }

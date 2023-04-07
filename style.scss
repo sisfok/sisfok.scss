@@ -27,15 +27,16 @@ html {
 }
 
 body {
-  margin: 0;
-  font-size: 1.2rem;
+  padding: 1rem;
+  font-size: 1rem;
   max-width: 920px;
   margin: 0 auto;
   word-wrap: break-word;
+  line-height: 1.5rem;
 }
 
 section {
-  margin-top: 2rem;
+  margin: 1rem 0;
 }
 
 cite {
