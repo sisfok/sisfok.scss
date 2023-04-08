@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
 @import '../utils/mixins';
 
 $mono: 'Roboto Mono', monospace;
-$garamond: 'Vollkorn', serif;
+$garamond: 'EB Garamond', serif;
 $inter: 'Inter', sans-serif;
 
 * {
@@ -18,7 +18,8 @@ body {
 
 p {
     font-family: $garamond;
-    font-size: 1.2rem;
+    font-size: 22px;
+    line-height: 1.3em;
 }
 
 // @include headings(.7rem);
