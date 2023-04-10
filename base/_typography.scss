@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
-@import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
-@import '../utils/mixins';
+// @import '../utils/mixins';
 
-$mono: 'Roboto Mono', monospace;
-$garamond: 'EB Garamond', serif;
+$mono: 'DM Mono', monospace;
+$garamond: 'Source Serif Pro', serif;
 $inter: 'Inter', sans-serif;
 
 * {
@@ -17,9 +16,15 @@ body {
 }
 
 p {
+    color: rgb(41, 41, 41);
     font-family: $garamond;
-    font-size: 22px;
-    line-height: 1.3em;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+h1 {
+    line-height: 40px;
+    font-size: 32px;
 }
 
 // @include headings(.7rem);
