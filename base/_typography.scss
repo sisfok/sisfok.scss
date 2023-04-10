@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
-// @import '../utils/mixins';
-
-$mono: 'DM Mono', monospace;
-$garamond: 'Source Serif Pro', serif;
-$inter: 'Inter', sans-serif;
+@import "../utils/font";
 
 * {
     text-rendering: geometricPrecision;
@@ -17,14 +10,20 @@ body {
 
 p {
     color: rgb(41, 41, 41);
-    font-family: $garamond;
-    font-size: 20px;
+    font-family: $serif;
     line-height: 32px;
+    font-size: $font-size;
 }
 
-h1 {
-    line-height: 40px;
-    font-size: 32px;
-}
+a {
+    color: #0060df;
+    text-decoration: none;
 
-// @include headings(.7rem);
+    &:hover {
+        text-decoration: underline;
+    }
+
+    .bare {
+        word-break: break-all;
+    }
+}

@@ -1,3 +1,9 @@
+@import 'utils/color';
+@import 'utils/font';
+@import 'utils/highlight';
+@import 'utils/rouge-color';
+@import 'utils/size';
+
 @import 'base/typography';
 
 @import 'components/alert';
@@ -16,23 +22,10 @@
 
 @import 'mobile/mobile';
 
-@import 'utils/color';
-@import 'utils/highlight';
-@import 'utils/rouge-color';
-@import 'utils/size';
-
-html {
-  margin: 0;
-  scroll-behavior: smooth;
-}
-
 body {
-  padding: 1rem;
-  font-size: 1rem;
-  max-width: 920px;
+  max-width: $page-width;
   margin: 0 auto;
-  word-wrap: break-word;
-  line-height: 1.5rem;
+  text-align: justify;
 }
 
 section {
@@ -42,18 +35,6 @@ section {
 cite {
   font-size: 0.8em;
   margin-left: 1em;
-}
-
-a {
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-
-  .bare {
-    word-break: break-all;
-  }
 }
 
 hr {
@@ -68,14 +49,6 @@ article {
   padding: 1rem;
 }
 
-input {
-  font-size: 16px;
-}
-
-.text-center {
-  text-align: center;
-}
-
 .attribution {
   font-size: 0.8em;
   margin-left: 1em;
@@ -88,8 +61,10 @@ input {
   vertical-align: .1em;
 }
 
-ol > li {
-  line-height: 1.8rem;
+ol, ul {
+  > li {
+    line-height: 1.8rem;
+  }
 }
 
 #signed {

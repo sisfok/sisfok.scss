@@ -1,0 +1,11 @@
+@import "../utils/font";
+
+footer {
+  padding: 2rem 2rem;
+  text-align: center;
+  font-size: 1rem;
+
+  > p {
+    font-family: $inter;
+  }
+}
