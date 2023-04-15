@@ -1,24 +1,24 @@
 .img-author {
-  border: 1px solid grey;
-  border-radius: 50%;
-  color: transparent;
-  float: left;
-  height: 48px;
-  overflow: hidden;
-  position: relative;
-  vertical-align: middle;
-  width: 48px;
-  margin: 0 .5rem 0 0;
+    border: 1px solid grey;
+    border-radius: 50%;
+    color: transparent;
+    float: left;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    width: 48px;
+    margin: 0 .5rem 0 0;
 }
 
 .author-name {
-  font-family: $inter;
-  line-height: 1.2rem;
+    font-family: $inter;
+    line-height: 1.2rem;
 }
 
 .time-post {
-  font-family: $inter;
-  opacity: 0.8;
-  font-size: 0.9rem;
-  line-height: .1rem;
+    font-family: $inter;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    line-height: .1rem;
 }
