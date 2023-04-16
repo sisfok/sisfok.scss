@@ -25,7 +25,7 @@
 body {
     max-width: $page-width;
     margin: 0 auto;
-    text-align: justify;
+    text-rendering: geometricPrecision;
 }
 
 section {
