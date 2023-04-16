@@ -1,6 +1,6 @@
 @import 'utils/color';
 @import 'utils/font';
-@import 'utils/highlight';
+// @import 'utils/highlight';
 @import 'utils/rouge-color';
 @import 'utils/size';
 
@@ -25,28 +25,10 @@
 body {
     max-width: $page-width;
     margin: 0 auto;
-    text-rendering: geometricPrecision;
-}
-
-section {
-    margin: 1rem 0;
-}
-
-cite {
-    font-size: 0.8em;
-    margin-left: 1em;
 }
 
 hr {
     border: 0.1px solid #d8dae1;
-}
-
-article {
-    border-radius: 2px;
-    box-shadow: 0 0 2px #3c485826;
-    border: 1px solid #d8dae1;
-    margin-bottom: 1rem;
-    padding: 1rem;
 }
 
 .attribution {
@@ -54,21 +36,9 @@ article {
     margin-left: 1em;
 }
 
-.icon {
-    display: inline-block;
-    line-height: .75em;
-    width: .4em;
-    vertical-align: .1em;
-}
-
 ol,
 ul {
     >li {
         line-height: 1.8rem;
     }
-}
-
-#signed {
-    text-align: center;
-    font-family: $mono;
 }
