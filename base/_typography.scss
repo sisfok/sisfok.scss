@@ -3,27 +3,17 @@
 }
 
 body {
-    font-family: $inter;
+    font: 400 1em /32px system-ui;
 }
 
-h1 {
-    text-align: center;
+main {
+    display: float;
 }
 
-p {
-    line-height: 32px;
-    font-size: $font-size;
+article {
+    with: 80ch;
 }
 
 a {
-    color: #0060df;
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
-
-    .bare {
-        word-break: break-all;
-    }
+    border-bottom: 1px solid red;
 }
